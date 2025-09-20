@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Website</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <img src="Image/contact photo.jpg" alt="Contact image">
+    <p>If you would like to reach out, you can use the details below:</p>
+    <p><strong>Email:</strong> josephatmwoleka@gmail.com</p>
+    <p><strong>Phone:</strong> +255 693 665 301</p>
+    <p>Or simply fill out this form:</p>
+    <form onsubmit="validateForm(event)">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br><br>
+      
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script src="Script/script.js"></script>
+</body>
+</html>
